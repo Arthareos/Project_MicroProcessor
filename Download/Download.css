@@ -7,7 +7,7 @@ html {
 .header_background {
     height: 500px;
     width: 100%;
-    background-image: url("400-07-doug-two-mice-1984.jpg");
+    background-image: url("LibzpNO.jpg");
     background-attachment: fixed;
     background-clip: border-box;
     background-repeat: no-repeat;
@@ -42,9 +42,19 @@ ul {
 }
 
 h1 {
-    color: white;
+    color: wheat;
     font-size: 2rem;
     padding-bottom: 0px;
+}
+
+#OMFG {
+    margin-top: 10px;
+    padding-top: 0px;
+    font-size: 18px;
+    margin: 0px;
+    color: black;
+    text-align: center;
+    width: 100%;
 }
 
 .spacer {
@@ -68,18 +78,18 @@ h1 {
 
 a {
     text-decoration: none;
-    color: gray;
-}
-
-a:hover {
     color: white;
 }
 
+a:hover {
+    color: wheat;
+}
+
 h2 {
+    padding-top: 40px;
     padding-left: 50px;
     margin-bottom: 0px;
     font-size: 24px;
-    margin-top: 0px;
 }
 
 p {
@@ -88,6 +98,7 @@ p {
     padding-right: 50px;
     padding-top: 0px;
     font-size: 18px;
+    margin: 0px;
 }
 
 .end {
@@ -111,5 +122,3 @@ p {
     font-style: italic;
     padding-top: 20px;
 }
-
-#001038
