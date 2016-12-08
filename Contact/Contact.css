@@ -1,0 +1,141 @@
+html {
+    font-size: 20px;
+    font-family: "Lucida Sans", sans-serif;
+    background-color: #eae9e1;
+}
+
+.header_background {
+    height: 500px;
+    width: 100%;
+    background-color: #001038;
+    background-image: url("314110.jpg");
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
+    position: absolute;
+}
+
+.nav {
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    margin-left: 12%;
+    width: 76%;
+    padding-top: 200px;
+    padding-bottom: 10px;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul {
+    padding-top: 0px;
+    list-style-type: none;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 0px;
+}
+
+.spacer {
+    margin-left: 12%;
+    width: 76%;
+    background-color: transparent;
+    z-index: 2;
+    position: relative;
+    height: 340px;
+}
+
+.main_data {
+    z-index: 2;
+    position: relative;
+    background-color: white;
+    margin-left: 12%;
+    width: 76%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+h2 {
+    padding-left: 50px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+p {
+    margin: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0px;
+    font-size: 18px;
+}
+
+.end {
+    margin-top: 10px;
+    z-index: 2;
+    position: relative;
+    background-color: white;
+    margin-left: 12%;
+    margin-right: 12%;
+    width: 76%;
+    height: 60px;
+}
+
+#end2 {
+    text-align: center;
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+#lol {
+    font-style: italic;
+    padding-top: 30px;
+}
+
+body {
+    margin: 0px;
+}
+
+input[type=text] {
+    margin-left: 50px;
+    margin-right: 10px;
+    border: 0px;
+    border-bottom: 2px solid #001038;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+input[type=submit] {
+    margin-left: 50px;
+    margin-right: 10px;
+    border: 0px;
+    border-bottom: 2px solid #001038;
+    font-size: 20px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#001038
