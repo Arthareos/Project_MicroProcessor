@@ -1,6 +1,16 @@
+@font-face {
+    font-family: mainfont;
+    src: url("Sansation_Light.woff");
+}
+
+@font-face {
+    font-family: titlefont;
+    src: url("Avril_Sans.woff");
+}
+
 html {
     font-size: 20px;
-    font-family: "Lucida Sans", sans-serif;
+    font-family: mainfont;
     background-color: #eae9e1;
 }
 
@@ -8,15 +18,15 @@ html {
     height: 500px;
     width: 100%;
     background-image: url("LibzpNO.jpg");
-    background-attachment: fixed;
     background-clip: border-box;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     border: 0px;
     padding: 0px;
     margin: 0px;
     z-index: 1;
     position: absolute;
+    background-position: center top;
 }
 
 .nav {
@@ -25,8 +35,9 @@ html {
     text-align: center;
     margin-left: 12%;
     width: 76%;
-    padding-top: 200px;
+    padding-top: 50px;
     padding-bottom: 10px;
+    font-family: titlefont;
 }
 
 li {
@@ -39,38 +50,36 @@ li {
 ul {
     padding-top: 0px;
     list-style-type: none;
+    padding-left: 0px;
 }
 
 h1 {
-    color: wheat;
-    font-size: 2rem;
+    color: white;
+    font-size: 4rem;
     padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-style: italic;
 }
 
 #OMFG {
-    border-top: 20px;
     font-size: 18px;
-    color: black;
+    color: white;
     text-align: center;
-    padding-left: 47%;
-    margin-top: 30px;
-}
-
-.spacer {
-    margin-left: 12%;
-    width: 76%;
-    background-color: transparent;
-    z-index: 2;
-    position: relative;
-    height: 340px;
+    margin: 0 auto;
+    background: black;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    float: center;
 }
 
 .main_data {
+    max-width: 900px;
+    min-width: 400px;
     z-index: 2;
     position: relative;
     background-color: white;
-    margin-left: 12%;
-    width: 76%;
+    margin: auto;
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -78,10 +87,11 @@ h1 {
 a {
     text-decoration: none;
     color: white;
+    font-size: 22px;
 }
 
 a:hover {
-    color: wheat;
+    color: darkgray;
 }
 
 h2 {
@@ -100,20 +110,23 @@ p {
 }
 
 .end {
-    margin-top: 10px;
+    max-width: 900px;
+    min-width: 400px;
     z-index: 2;
     position: relative;
-    background-color: white;
-    margin-left: 12%;
-    margin-right: 12%;
-    width: 76%;
     height: 60px;
+    font-family: titlefont;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
 }
 
 #end2 {
     text-align: center;
-    font-size: 13px;
+    font-size: 16px;
+    padding: 0px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #lol {
