@@ -61,16 +61,16 @@ h1 {
     font-style: italic;
 }
 
-#OMFG {
+.OMFG {
     font-size: 18px;
     color: white;
     text-align: center;
-    margin: 0 auto;
+    margin-left: 43%;
+    margin-right: auto;
     background: black;
     padding: 10px;
     padding-left: 25px;
     padding-right: 25px;
-    float: center;
 }
 
 .main_data {
