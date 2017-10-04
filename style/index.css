@@ -1,11 +1,11 @@
 @font-face {
     font-family: mainfont;
-    src: url("Sansation_Light.woff");
+    src: url("./fonts/main.woff");
 }
 
 @font-face {
     font-family: titlefont;
-    src: url("Avril_Sans.woff");
+    src: url("./fonts/title.woff");
 }
 
 html {
@@ -15,9 +15,9 @@ html {
 }
 
 .header_background {
-    height: 700px;
+    height: 500px;
     width: 100%;
-    background-image: url("head-bg.jpg");
+    background-image: url("./images/main-img.jpg");
     background-clip: border-box;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,15 +67,14 @@ h1 {
     z-index: 2;
     position: relative;
     background-color: white;
+    margin: auto;
     padding-bottom: 50px;
     padding-top: 50px;
-    margin: auto;
 }
 
 a {
-    background-color: transparent;
     text-decoration: none;
-    color: gray;
+    color: darkgray;
     font-size: 22px;
 }
 
@@ -85,15 +84,9 @@ a:hover {
 
 h2 {
     padding-left: 50px;
-    margin: 0px;
-    font-size: 24px;
-}
-
-h3 {
-    padding-top: 40px;
-    padding-left: 50px;
     margin-bottom: 0px;
     font-size: 24px;
+    margin-top: 0px;
 }
 
 p {
@@ -105,33 +98,32 @@ p {
 }
 
 .end {
-    margin-top: 10px;
+    max-width: 900px;
+    min-width: 400px;
     z-index: 2;
     position: relative;
-    margin-left: 12%;
-    margin-right: 12%;
-    width: 76%;
     height: 60px;
     font-family: titlefont;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
 }
 
 #end2 {
     text-align: center;
     font-size: 16px;
+    padding: 0px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-p1 {
-    margin-top: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 30px;
-    font-size: 18px;
+#lol {
     font-style: italic;
+    padding-top: 30px;
 }
 
 body {
     margin: 0px;
 }
 
-#001038
+#001038s

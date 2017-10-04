@@ -1,11 +1,11 @@
 @font-face {
     font-family: mainfont;
-    src: url("Sansation_Light.woff");
+    src: url("./fonts/main.woff");
 }
 
 @font-face {
     font-family: titlefont;
-    src: url("Avril_Sans.woff");
+    src: url("./fonts/title.woff");
 }
 
 html {
@@ -15,9 +15,9 @@ html {
 }
 
 .header_background {
-    height: 700px;
+    height: 500px;
     width: 100%;
-    background-image: url("head-bg.jpg");
+    background-image: url("./images/download.jpg");
     background-clip: border-box;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,6 +61,18 @@ h1 {
     font-style: italic;
 }
 
+.OMFG {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-left: 43%;
+    margin-right: auto;
+    background: black;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 .main_data {
     max-width: 900px;
     min-width: 400px;
@@ -79,7 +91,7 @@ a {
 }
 
 a:hover {
-    color: gray;
+    color: darkgray;
 }
 
 h2 {
@@ -94,14 +106,7 @@ p {
     padding-right: 50px;
     padding-top: 0px;
     font-size: 18px;
-}
-
-p1 {
-    margin-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 0px;
-    font-size: 18px;
+    margin: 0px;
 }
 
 .end {
@@ -124,14 +129,6 @@ p1 {
     padding-bottom: 20px;
 }
 
-iframe {
-    padding-top: 10px;
-    margin-left: 12%;
-    padding-bottom: 10px;
-    width: 76%;
-    height: 385px;
-}
-
 #lol {
     font-style: italic;
     padding-top: 30px;
@@ -141,4 +138,4 @@ body {
     margin: 0px;
 }
 
-#001038s
+#001038
